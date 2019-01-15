@@ -1,0 +1,10 @@
+propiedades de los textos en html
+
+font-family: 
+font-weight
+font-size
+color
+letter-spacing
+line-height
+text-transform
+text-decoration

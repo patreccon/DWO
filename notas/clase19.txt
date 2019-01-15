@@ -1,0 +1,18 @@
+Los tipos de texto, también conocidos como tipos de letras o fuentes, son el conjunto de diseños tipográficos que representan a cada una de las letras y los caracteres gráficos en el documento. Su nombre correcto es tipografía. Los diferentes tipos de fuente están basados en archivos que existen en cada sistema operativo.
+
+Algunos ejemplos de tipos de texto o fuentes, son:
+
+Arial
+Times New Roman
+Verdana
+DeJaVu
+Lato
+OpenSans
+Roboto
+CSS permite utilizar fuentes diferentes a las disponibles en el sistema operativo del cliente, mediante la importación o el enlace a archivos de fuentes externas. Las más usadas son las que están disponibles a través del sitio web de Google Fonts.
+
+Al definir el tipo de texto asociado a una clase css con la propioedad font-family indicamos al navegador, que debe intentar usar esa fuente en particular para darle la apariencia tipográfica a los textos de ese elemento html.
+
+enlaces:
+
+fonts.google.coms

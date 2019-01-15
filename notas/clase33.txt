@@ -1,0 +1,3 @@
+Algunas fuentes no funcionan cuando se les aplica la etiqueta strong, esto debido a que no tienen
+esa fuente incorporada. Al descargar una fuente que no tenemos instaladas podemos verificar si tiene este
+tipo de estilo y descargarlos tambien segun se prefiera.

@@ -1,0 +1,5 @@
+Para ver y depurar el código de una página html, el navegador incluye una herramienta llamada Inspector de elementos, o simplemente inspector, que abre, en una sección de la ventana, una serie de espacios con información técnica muy detallada sobre todo lo que sucede en el DOM, incluídos los estilos que tienen aplicados cada uno de los elementos del html.
+
+La mayoría de los navegadores incluye algún tipo de Inspector, en el curso usamos Google Chrome, pero la misma herramienta (o similar) la encuentras en Firefox, Opera, Edge, etc.
+
+Utilizando el Inspector podemos hacer modificaciones (temporales) manualmente en el html de cualquier sitio web, consultar sus estilos y recursos enlazados, hacer pruebas en tiempo real con JavaSsript, monitorear variables o eventos entre muchas otras tareas útiles para cualquier desarrollador.

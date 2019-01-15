@@ -1,0 +1,15 @@
+Hay varias unidades de medida con las que se puede trabajar en CSS: %, em, rem, px, pt, fr, vw, vh
+Las medidas más comunes y utilizadas son los pixeles. Un pixel es la menor unidad homogénea en color que forma parte de una imagen digital. Es la unidad más práctica y fácil de utilizar y manipular, y es la que utilizaremos mayormente en este curso.
+
+Los colores en CSS pueden ser representados de al menos tres formas diferentes:
+
+Representados con palabras claves para cada color, como: red, green, blue, pink, yellow, black, etc.
+Usando la composición de tres colores (rojo, verde y azul): para esto podemos usar notación exadecimal o las funciones rgb() y rgba().
+Usando la composición mediante valores de Matiz, Saturación y Luminosidad con: hls() y hlsa().
+Con respecto a los valores hexadecimales, cada color está representado por 6 digitos, que representan 3 pares de hexadecimales: FF - FF - FF (rojo, verde y azul), en el que cada par puede tomar valores hexadecimales entre 00 y FF. Cada uno equivale a valores decimales entre 0 y 255, donde 0 es la ausencia de ese color y 255 la mayor cantidad disponible. De esta manera cada color se forma por la combinación de diferentes proporciones de rojo, verde y azul.
+
+#000000 es equivalente a Negro
+#FF0000 es equivalente a Rojo
+#00FF00 es equivalente a Verde
+#0000FF es equivalente a Azul
+#FFFFFF es equivalente a Blanco

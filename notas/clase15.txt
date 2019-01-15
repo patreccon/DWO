@@ -1,0 +1,5 @@
+Los navegadores incluyen estilos predeterminados para cada elemento html. Esto significa que aún cuando no hayas definido o asignado ningún estilo a tus etiquetas, éstas tendrán una apariencia particular que es 
+muy similar en todos los navegadores, aunque no necesariamente idéntica.
+
+Por ejemplo, una propiedad crucial para la correcta disposicion de los elementos en html es 
+display, la cuya propiedad default es tanto block para ciertos elementos como inline para otros.

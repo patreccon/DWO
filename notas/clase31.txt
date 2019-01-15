@@ -1,0 +1,8 @@
+A partir de esta clase aplicaremos toda la teoría aprendida hasta este momento en el curso, a nuestro proyecto del portafolio.
+También veremos algunas propiedades adicionales de CSS que complementan lo aprendido.
+
+La propiedad align-items center es mejor pornerla en el elemento ol que en el .header, debido a que
+las anclas no abarcan todo es area reservada del menu.
+
+NOTA:
+Ejemplo de como desarrollar un menu de navegación como debe ser.

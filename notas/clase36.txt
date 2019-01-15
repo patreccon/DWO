@@ -1,0 +1,1 @@
+En esta clase agregamos algunos divs a manera de contenedores para central todo el contenido de la página y le definiremos algunos estilos con la clase .container. Para resolver algunos detalles generados por la implementación de los contenedores, aplicaremos una solución un tanto creativa heredando varias propiedades de los elementos padre con el keyword inherit.

@@ -1,0 +1,11 @@
+sintaxis basica de un estilo css
+
+selector {
+    propiedad:valor;
+}
+
+donde <selector> puede ser de 3 tipos:
+
+identificador (#)
+clase         (.)
+etiqueta hmtl (html,body,p, etc)

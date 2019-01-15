@@ -1,0 +1,2 @@
+Existen también propiedades equivalentes que nos permite alinear textos dentro de un contenedor, estas propiedades son: text-align y vertical-align.
+

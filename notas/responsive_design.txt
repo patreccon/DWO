@@ -1,0 +1,119 @@
+09:28  p. m. 17/11/2018
+Luke wroblewski
+
+¿Qué es Responsive Design?
+Son todas esas técnicas que usamos para adaptar nuestras aplicaciones web a la mayor cantidad de pantallas
+
+Patrones en Reponsive Design:
+
+Mostly Fluid
+Colocación de columnas
+Layout shifter
+Tiny tweaks
+Off canvas
+Para mas información: https://mediaqueri.es
+
+Conceptos nuevos:
+
+Viewport: área visible del navegador
+Portrait: vertical
+Landscape: horizontal
+Mobile first: empezar un websit desde la menor resolución soportada
+Deskto first: empezar un websit desde la mayor resolución soportada
+¿Cúal es mejor?: Técnicamente Mobile First
+
+08:36 a. m. 23/11/2018
+
+Herramientas Chrome DevOps -> El ajuste de tamaño para ver como se comporta el diseño web y demas funciones como tomar fotos parciales o totales
+ViewPort -> propiedad del tag meta viewport="width=device-width, initial-scale=0-1"
+
+08:38 a. m. 24/11/2018
+
+Unidades de Medida
+
+Porcentajes: Son las dimensiones en base a los porcentajes de las medidas del elemento padre
+em: Unidad relativa al tamaño  de la fuente del elemento padre más cercano, incluso el mismo elemento
+rem: Unidad relativa al tamaño de la fuente del elemento HTML (padre de todo)
+vw/vh: Similar a los porcentajes solo que estos aplican a las medidas, tanto ancho como alto del viewport(la parte visible 
+de nuestro sitio en un navegador)
+
+MEDIA QUERIES
+
+Es el modulo de css que hace posible el RD desde 2010. Gracias a esto es posible adaptar la representación del contenido
+de acuerdo a las condiciones al medio y la condiciones que se establezcan en un media querie. Formato:
+
+@media media_type and (condition){
+} 
+
+media_type: pantalla del dispositivo objectivo
+condition: Hasta el momento se han visto las siguientes:
+
+max-width (Hasta)
+min-width (Desde)
+
+05:44 p. m. 13/12/2018
+
+Formas de agregar media queries a tu página:
+
+archivo css relacionado con una etiqueta link con media parameter
+en el archivo css de la forma tradicional
+etiqueta style
+
+flex-wrap, propiedad primaria que nos ayuda en facilitar el aspecto responsivo de una página web.
+width:100% junto con max-width tiene incoveniente por las caracteristicas del modelo de caja, lo que hace que las dimensiones se desfasen, para
+ello mejor usar flex:1 con maxwidth
+
+De acuerdo a un media querie, podemos hacer que el diseño css se comporte diferente de acuerdo a rangos de resolución.
+
+//Para hacer una img resposiva
+.class img{
+  max-width:100%;
+
+jerarquias pára el css
+
+repasar margin collapsing
+estilos aplicados directamente a la etiqueta pesan mas que los de una clase
+ej.
+.event img {...} tiene mayor prioridad que event-image {...}
+
+text-align aplica con elementos display block ya que este abarca todo el viewport o el archo del elemento padre.
+
+max-width:100% para hacer imágenes responsivas.
+
+COMENTARIOS /**/ Debido a un malentendido de estos había un error y por esto un media querie no era procesado.
+
+CSS POSITIONS
+
+static -> default
+relative -> desbloquea las propiedades siguientes:
+
+left > right
+top > bottom
+
+Nótese la prioridad de cada una al ser ejecutadas por el navegador.
+
+absolute sale del flujo normal del documento, y la posicíon es relativa al elemento padre con posición relative próximo
+
+fixed. No se mueve con el scroll
+
+sticky. Este queda fijo hasta que el top o el bottom han sido alcanzados.
+
+09:50 a. m. 14/12/2018
+
+Marie Kondo El arte del Orden
+Hyperion Saga
+Quiet book
+Gracias por llegar tarde
+High growth handbook
+
+rgba(0,0,0,0,5) fondo con opacidad
+
+-------------------
+Videos en HTML 5
+
+z index. How does this tag work when it comes to parents and sons?
+
+Videos incrustados del youtube. Es necesario agregarlo a un contenedor el cual este dimensionado de acuerdo a la proporción del
+mismo para eso calculamos su padding con la sig. formula: height * 100 /width
+
+display block es el que permite asignar ancho y alto.

@@ -1,0 +1,13 @@
+
+
+Algunas de las propiedades de css relacionadas con la apariencia del fondo de los elementos son:
+
+background: con la que se puede indicar un color, o usada de manera extendida, puede incluir color de fondo, url de la imagen, posición y modo de repetición de la imagen.
+background-image: contiene la url que se usará como fondo del elemento.
+background-color: indica el color de fondo, se puede usar en combinación con la imagen.
+background-size: se puede indicar en valores de alto y ancho o en alguna de las palabras claves permitidas: cover o contain.
+background-position: indica la posición de la imagen dentro del elemento, puede indicarse en unidades o en palabras claves como center, left, top y right.
+background-repeat: indica el método de repetición de la imagen de fondo, puede ser: repeat, repeat-x, repeat-y o no-repeat.
+
+
+[.header]

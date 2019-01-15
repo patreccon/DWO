@@ -1,0 +1,5 @@
+Navegación entre secciones
+
+a los elemetnos del header nav ol li a -> href="#identificador_seccion"
+
+Si quieres navegar a otra href="link" target="_blank"
